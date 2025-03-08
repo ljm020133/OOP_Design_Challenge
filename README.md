@@ -1,40 +1,50 @@
-# OOP_Design_Challenge
-Overview
+# OOP Vehicle System
 
-This project demonstrates key Object-Oriented Programming (OOP) concepts using a vehicle system implemented in Java. It includes:
+## Overview
 
-Inheritance: A Vehicle base class with Car and Motorcycle subclasses.
+This project demonstrates key **Object-Oriented Programming (OOP)** concepts using a **vehicle system** implemented in **Java**. It includes:
 
-Interface Implementation: A Drivable interface implemented by Car and Motorcycle.
+- **Inheritance**: A `Vehicle` base class with `Car` and `Motorcycle` subclasses.
+- **Interface Implementation**: A `Drivable` interface implemented by `Car` and `Motorcycle`.
+- **Polymorphism**: 
+  - Method overriding (`displayInfo()`)
+  - Method overloading (`accelerate(int increment)`)
+- **Data Coupling**: Passing primitive values in methods (`accelerate(int increment)`).
+- **Stamp Coupling**: Passing objects as method parameters (`inspectVehicle(Vehicle vehicle)`).
 
-Polymorphism: Method overriding (displayInfo()) and method overloading (accelerate(int increment)).
+---
 
-Data Coupling: Passing primitive values in methods (accelerate(int increment)).
+## How to Run
 
-Stamp Coupling: Passing objects as method parameters (inspectVehicle(Vehicle vehicle)).
+1. Clone this repository:
 
-How to Run
+    ```sh
+    git clone https://github.com/YOUR_USERNAME/OOP_Vehicle_System.git
+    ```
 
-Clone this repository:
+2. Navigate to the project folder:
 
-git clone https://github.com/YOUR_USERNAME/OOP_Vehicle_System.git
+    ```sh
+    cd OOP_Vehicle_System
+    ```
 
-Navigate to the project folder:
+3. Compile and run the Java file:
 
-cd OOP_Vehicle_System
+    ```sh
+    javac VehicleSystem.java
+    java Main
+    ```
 
-Compile and run the Java file:
+---
 
-javac VehicleSystem.java
-java Main
+## File Structure
 
-File Structure
-
+```plaintext
 OOP_Vehicle_System/
 │── VehicleSystem.java  # Main Java implementation
 │── README.md           # Project documentation (this file)
 
-Example Output
+**## Example Output**
 
 Toyota car is driving.
 Harley-Davidson motorcycle is driving.
@@ -44,7 +54,3 @@ Inspecting vehicle:
 Car Brand: Toyota, Speed: 120 km/h, Doors: 4
 Inspecting vehicle:
 Motorcycle Brand: Harley-Davidson, Speed: 95 km/h, Sidecar: false
-
-License
-
-This project is for educational purposes.

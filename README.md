@@ -49,6 +49,7 @@ OOP_Vehicle_System/
 
 ## Example Output
 
+```plaintext
 Toyota car is driving.
 Harley-Davidson motorcycle is driving.
 Toyota accelerated to 120 km/h
@@ -57,3 +58,4 @@ Inspecting vehicle:
 Car Brand: Toyota, Speed: 120 km/h, Doors: 4
 Inspecting vehicle:
 Motorcycle Brand: Harley-Davidson, Speed: 95 km/h, Sidecar: false
+```

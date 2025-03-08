@@ -42,7 +42,8 @@ This project demonstrates key **Object-Oriented Programming (OOP)** concepts usi
 ```plaintext
 OOP_Vehicle_System/
 │── VehicleSystem.java  # Main Java implementation
-│── README.md           # Project documentation (this file)```
+│── README.md           # Project documentation (this file)
+```
 
 ---
 

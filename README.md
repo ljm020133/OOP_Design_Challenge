@@ -12,6 +12,7 @@ Polymorphism: Method overriding (displayInfo()) and method overloading (accelera
 Data Coupling: Passing primitive values in methods (accelerate(int increment)).
 
 Stamp Coupling: Passing objects as method parameters (inspectVehicle(Vehicle vehicle)).
+
 How to Run
 
 Clone this repository:
